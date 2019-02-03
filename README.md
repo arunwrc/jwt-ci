@@ -5,7 +5,6 @@ This is a simple todo rest application based on CodeIgniter, [REST Server](https
 
 Step 1: Please run `composer install` in `application` directory first.<br />
 Step 2: No Need to create database in mysql, just straight import DB/todo.sql in mysql. <br />
-Step 3: 
 
 # Run
 
@@ -13,7 +12,7 @@ Step 3:
 Create JWT Token, please refer screenshots in Reference folder.
 
 ```
-URL: http://localhost:8000/auth/token
+URL: http://rest-jwt.local/auth/token
 Method: POST
 Multipart Form:
     username: arunr
@@ -23,7 +22,7 @@ Multipart Form:
 Create Todo
 You need to set jwt token into Authorization header, please refer screenshots in Reference folder.
 ```
-URL: http://localhost:8000/todo
+URL: http://rest-jwt.local/todo
 Method: POST
 Multipart Form:
     user_id: 1
@@ -33,7 +32,7 @@ Multipart Form:
 
 List Todo
 ```
-URL: http://localhost:8000/todo
+URL: http://rest-jwt.local/todo
 Method: GET
 ```
 
