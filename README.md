@@ -3,8 +3,8 @@ This is a simple todo rest application based on CodeIgniter, [REST Server](https
 
 # Setup
 
-Step 1: Please run `composer install` in `application` directory first.
-Step 2: No Need to create database in mysql, just straight import DB/todo.sql in mysql. 
+Step 1: Please run `composer install` in `application` directory first.<br />
+Step 2: No Need to create database in mysql, just straight import DB/todo.sql in mysql. <br />
 Step 3: 
 
 # Run
